@@ -4,6 +4,8 @@ Dashboard de resultados de tests E2E (Playwright) para Dropea.
 
 Muestra metricas de la ultima ejecucion, distribucion por estado, tiempos de ejecucion y analisis de calidad.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Andreadzz/gdp-dashboard)
+
 ### Como ejecutar localmente
 
 1. Instalar dependencias
@@ -23,7 +25,7 @@ Muestra metricas de la ultima ejecucion, distribucion por estado, tiempos de eje
 Desde el proyecto `dropea-qa`, ejecutar:
 
 ```bash
-npm run sync-dashboard
+bash scripts/sync-dashboard.sh
 ```
 
 Esto copia `test-results.json` y `test-analysis-complete.json` al directorio `data/` de este repo y hace push automaticamente.
@@ -37,4 +39,5 @@ parsers.py                # Parsers de JUnit XML y JSON
 data/
   test-results.json       # Resultados de la ultima ejecucion
   test-analysis-complete.json  # Analisis completo de la suite
+render.yaml               # Config de deploy para Render
 ```
