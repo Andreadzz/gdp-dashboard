@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "total": 16,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 7,
+    "duration": 43118.314,
+    "startTime": "2026-02-12T10:45:59.196Z",
+    "endTime": "2026-02-12T10:46:41.388Z"
+  },
+  "tests": [
+    {
+      "title": "authenticate admin",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\config\\auth-admin.setup.js",
+      "line": 6,
+      "status": "passed",
+      "duration": 4657,
+      "error": null
+    },
+    {
+      "title": "authenticate dropshipper",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\config\\auth-dropshipper.setup.js",
+      "line": 8,
+      "status": "passed",
+      "duration": 4438,
+      "error": null
+    },
+    {
+      "title": "authenticate",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\config\\auth.setup.js",
+      "line": 6,
+      "status": "passed",
+      "duration": 4977,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Título y mensaje del banner son correctos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 42,
+      "status": "skipped",
+      "duration": 11203,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Click en botón abre modal de verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 64,
+      "status": "skipped",
+      "duration": 11324,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Banner de verificación visible en homepage",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 33,
+      "status": "skipped",
+      "duration": 12757,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Botón \"Iniciar verificación\" visible y clickeable",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 53,
+      "status": "skipped",
+      "duration": 13024,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Acceso a perfil para verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 106,
+      "status": "passed",
+      "duration": 8308,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Secciones del perfil visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 123,
+      "status": "passed",
+      "duration": 8905,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Flujo completo hasta código QR",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 82,
+      "status": "skipped",
+      "duration": 11303,
+      "error": null
+    },
+    {
+      "title": "Perfil: Wizard de onboarding muestra pasos de verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 180,
+      "status": "passed",
+      "duration": 5750,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Banner aparece en múltiples páginas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 150,
+      "status": "skipped",
+      "duration": 13734,
+      "error": null
+    },
+    {
+      "title": "Perfil: Sección de seguridad visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 205,
+      "status": "passed",
+      "duration": 5042,
+      "error": null
+    },
+    {
+      "title": "Validación: Gestión de pedidos con KYC pendiente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 245,
+      "status": "passed",
+      "duration": 6620,
+      "error": null
+    },
+    {
+      "title": "Validación: Reportes accesibles con KYC pendiente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 264,
+      "status": "passed",
+      "duration": 6152,
+      "error": null
+    },
+    {
+      "title": "Validación: Publicar productos requiere KYC",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 220,
+      "status": "skipped",
+      "duration": 10756,
+      "error": null
+    }
+  ]
+}

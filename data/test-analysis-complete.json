@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "generatedAt": "2025-09-30T12:45:18.071Z",
+    "projectName": "Dropea QA Automation",
+    "version": "1.0.0"
+  },
+  "structure": {
+    "totalTestFiles": 15,
+    "totalTestCases": 49,
+    "totalPageObjects": 12,
+    "totalLinesOfCode": 2392,
+    "avgLinesPerTest": 159
+  },
+  "distribution": {
+    "byModule": {
+      "tests": 4,
+      "wallet": 2,
+      "stores": 7,
+      "productos": 8,
+      "orders": 7,
+      "exploration": 3,
+      "demo": 2,
+      "auth": 7,
+      "registro": 6,
+      "login": 3
+    },
+    "byType": {
+      "auth": 16,
+      "products": 8,
+      "orders": 7,
+      "wallet": 2,
+      "stores": 7,
+      "visual": 0,
+      "demo": 6,
+      "other": 3
+    }
+  },
+  "configuration": {
+    "framework": "Playwright v1.40.0",
+    "browsers": [
+      "Chrome",
+      "Firefox",
+      "Safari/WebKit"
+    ],
+    "projects": 11,
+    "projectNames": [
+      "Setup",
+      "authenticated-chromium",
+      "authenticated-firefox",
+      "authenticated-webkit",
+      "visual-chromium",
+      "visual-firefox",
+      "visual-webkit",
+      "dropshipper-chromium",
+      "unauthenticated-chromium",
+      "unauthenticated-firefox",
+      "unauthenticated-webkit"
+    ],
+    "baseUrl": "https://qa1.app.dropea.com",
+    "timeout": 60000
+  },
+  "lastRun": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "executionTime": 46.338582
+  },
+  "coverage": {
+    "totalModules": 6,
+    "coveredModules": 5,
+    "coveragePercentage": 83.3,
+    "uncoveredModules": [
+      "Visual Testing",
+      "API Testing",
+      "Performance Testing",
+      "Accessibility Testing"
+    ]
+  },
+  "quality": {
+    "pageObjectsUsed": true,
+    "customReporterImplemented": true,
+    "ciCdReady": true,
+    "multiPlatformSupport": true
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "category": "Missing Tests",
+      "description": "No visual regression tests implemented",
+      "impact": "Visual bugs may go undetected"
+    },
+    {
+      "severity": "medium",
+      "category": "Code Quality",
+      "description": "6 demo/test files in production test suite",
+      "impact": "Clutters test results and increases execution time"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "title": "Implement Visual Testing",
+      "description": "Add visual regression tests using configured visual testing projects",
+      "estimatedEffort": "1-2 days"
+    },
+    {
+      "priority": "high",
+      "title": "Remove Demo Tests",
+      "description": "Move demo/experimental tests to separate directory or delete",
+      "estimatedEffort": "2 hours"
+    },
+    {
+      "priority": "medium",
+      "title": "Consolidate Login Tests",
+      "description": "Merge duplicate login test files into single organized structure",
+      "estimatedEffort": "1 hour"
+    },
+    {
+      "priority": "medium",
+      "title": "Add API Tests",
+      "description": "Implement API testing layer using existing interceptors",
+      "estimatedEffort": "3-5 days"
+    },
+    {
+      "priority": "low",
+      "title": "Reduce Hard Waits",
+      "description": "Replace page.waitForTimeout with proper selector waits",
+      "estimatedEffort": "2-3 days"
+    }
+  ],
+  "scores": {
+    "structure": 8,
+    "coverage": 6,
+    "quality": 7,
+    "maintainability": 7,
+    "overall": 7
+  }
+}
