@@ -1,38 +1,41 @@
 {
   "metadata": {
-    "generatedAt": "2025-09-30T12:45:18.071Z",
+    "generatedAt": "2026-02-12T11:02:53.841Z",
     "projectName": "Dropea QA Automation",
     "version": "1.0.0"
   },
   "structure": {
-    "totalTestFiles": 15,
-    "totalTestCases": 49,
-    "totalPageObjects": 12,
-    "totalLinesOfCode": 2392,
-    "avgLinesPerTest": 159
+    "totalTestFiles": 33,
+    "totalTestCases": 272,
+    "totalPageObjects": 21,
+    "totalLinesOfCode": 8357,
+    "avgLinesPerTest": 253
   },
   "distribution": {
     "byModule": {
-      "tests": 4,
-      "wallet": 2,
-      "stores": 7,
-      "productos": 8,
-      "orders": 7,
-      "exploration": 3,
-      "demo": 2,
-      "auth": 7,
-      "registro": 6,
-      "login": 3
+      "wallet": 9,
+      "visual": 17,
+      "stores": 4,
+      "profile": 5,
+      "productos": 72,
+      "pedidos": 49,
+      "packs": 11,
+      "orders": 18,
+      "kyc": 22,
+      "auth": 29,
+      "admin": 23,
+      "reports": 8,
+      "notifications": 5
     },
     "byType": {
-      "auth": 16,
-      "products": 8,
-      "orders": 7,
-      "wallet": 2,
-      "stores": 7,
-      "visual": 0,
-      "demo": 6,
-      "other": 3
+      "auth": 29,
+      "products": 72,
+      "orders": 18,
+      "wallet": 9,
+      "stores": 4,
+      "visual": 17,
+      "demo": 0,
+      "other": 123
     }
   },
   "configuration": {
@@ -42,7 +45,7 @@
       "Firefox",
       "Safari/WebKit"
     ],
-    "projects": 11,
+    "projects": 25,
     "projectNames": [
       "Setup",
       "authenticated-chromium",
@@ -52,9 +55,23 @@
       "visual-firefox",
       "visual-webkit",
       "dropshipper-chromium",
+      "dropshipper-firefox",
+      "dropshipper-edge",
+      "admin-chromium",
+      "proveedor2-chromium",
+      "proveedor2-firefox",
+      "proveedor2-edge",
+      "authenticated-edge",
+      "mobile-iphone",
+      "mobile-android",
       "unauthenticated-chromium",
       "unauthenticated-firefox",
-      "unauthenticated-webkit"
+      "unauthenticated-edge",
+      "unauthenticated-webkit",
+      "stable-chromium",
+      "stable-auth-chromium",
+      "smoke-chromium",
+      "smoke-auth-chromium"
     ],
     "baseUrl": "https://qa1.app.dropea.com",
     "timeout": 60000
@@ -68,8 +85,8 @@
   },
   "coverage": {
     "totalModules": 6,
-    "coveredModules": 5,
-    "coveragePercentage": 83.3,
+    "coveredModules": 6,
+    "coveragePercentage": 100,
     "uncoveredModules": [
       "Visual Testing",
       "API Testing",
@@ -83,20 +100,7 @@
     "ciCdReady": true,
     "multiPlatformSupport": true
   },
-  "issues": [
-    {
-      "severity": "high",
-      "category": "Missing Tests",
-      "description": "No visual regression tests implemented",
-      "impact": "Visual bugs may go undetected"
-    },
-    {
-      "severity": "medium",
-      "category": "Code Quality",
-      "description": "6 demo/test files in production test suite",
-      "impact": "Clutters test results and increases execution time"
-    }
-  ],
+  "issues": [],
   "recommendations": [
     {
       "priority": "high",
