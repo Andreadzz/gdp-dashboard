@@ -6,7 +6,7 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
-from parsers import get_all_test_results, calculate_metrics
+from parsers import get_all_test_results, calculate_metrics, load_environment_results
 
 # Configure Streamlit page
 st.set_page_config(
@@ -57,20 +57,60 @@ def load_test_results_json():
             return json.load(f)
     return None
 
+@st.cache_data(ttl=60)
+def load_env_results():
+    return load_environment_results(str(DATA_DIR))
+
 df = load_data()
 test_results = load_test_results_json()
+env_results = load_env_results()
 
-if df.empty and test_results is None:
+if df.empty and test_results is None and not env_results:
     st.warning("No se encontraron resultados de tests.")
     st.info("""
     Archivos esperados en `data/`:
     - `test-results.json` (Playwright JSON)
-    - `junit-report.xml` (Playwright JUnit)
+    - `test-results-qa.json` / `test-results-dev.json` (por ambiente)
     """)
     st.stop()
 
+# Environment comparison section
+if env_results and len(env_results) > 1:
+    st.subheader(":earth_americas: Comparacion por Ambiente")
+
+    env_cols = st.columns(len(env_results))
+    for i, (env_name, data) in enumerate(sorted(env_results.items())):
+        summary = data.get('summary', {})
+        total = summary.get('total', 0)
+        passed = summary.get('passed', 0)
+        failed = summary.get('failed', 0)
+        skipped = summary.get('skipped', 0)
+        duration_s = summary.get('duration', 0) / 1000
+        pass_rate = (passed / max(total, 1)) * 100
+
+        with env_cols[i]:
+            st.markdown(f"#### {env_name}")
+            st.metric("Total", total)
+            st.metric("Passed", passed, delta=f"{pass_rate:.0f}%")
+            st.metric("Failed", failed, delta_color="inverse" if failed > 0 else "off")
+            st.metric("Skipped", skipped)
+            st.metric("Duracion", f"{duration_s:.0f}s")
+            if 'startTime' in summary:
+                st.caption(f"Run: {summary['startTime'][:16]}")
+
+    st.markdown("---")
+
 # Sidebar filters
 st.sidebar.subheader(":bar_chart: Filtros")
+
+# Environment selector
+if env_results:
+    env_options = ['Ultima ejecucion'] + sorted(env_results.keys())
+    selected_env = st.sidebar.selectbox("Ambiente", env_options)
+    if selected_env != 'Ultima ejecucion' and selected_env in env_results:
+        test_results = env_results[selected_env]
+else:
+    selected_env = 'Ultima ejecucion'
 
 available_suites = ['Todos'] + list(df['suite'].unique())
 selected_suite = st.sidebar.selectbox("Suite de Tests", available_suites)

@@ -102,6 +102,27 @@ def get_all_test_results(data_dir="data"):
     return pd.DataFrame(columns=["suite", "name", "module", "status", "time", "timestamp", "browser"])
 
 
+def get_available_environments(data_dir="data"):
+    """Detect available environment result files (test-results-{env}.json)"""
+    envs = {}
+    for filename in os.listdir(data_dir):
+        if filename.startswith("test-results-") and filename.endswith(".json"):
+            env_name = filename.replace("test-results-", "").replace(".json", "").upper()
+            envs[env_name] = os.path.join(data_dir, filename)
+    return envs
+
+
+def load_environment_results(data_dir="data"):
+    """Load test results for all available environments"""
+    envs = get_available_environments(data_dir)
+    results = {}
+    for env_name, path in envs.items():
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as f:
+                results[env_name] = json.load(f)
+    return results
+
+
 def calculate_metrics(df):
     """Calculate key QA metrics from test results"""
     if df.empty:

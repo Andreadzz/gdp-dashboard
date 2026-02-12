@@ -1,0 +1,2429 @@
+{
+  "summary": {
+    "total": 272,
+    "passed": 168,
+    "failed": 80,
+    "skipped": 24,
+    "duration": 889420.914,
+    "startTime": "2026-02-12T12:41:31.452Z",
+    "endTime": "2026-02-12T12:56:18.989Z"
+  },
+  "tests": [
+    {
+      "title": "authenticate dropshipper",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\config\\auth-dropshipper.setup.js",
+      "line": 8,
+      "status": "passed",
+      "duration": 12328,
+      "error": null
+    },
+    {
+      "title": "authenticate admin",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\config\\auth-admin.setup.js",
+      "line": 6,
+      "status": "passed",
+      "duration": 12340,
+      "error": null
+    },
+    {
+      "title": "authenticate",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\config\\auth.setup.js",
+      "line": 6,
+      "status": "passed",
+      "duration": 12328,
+      "error": null
+    },
+    {
+      "title": "Admin: Búsqueda de usuarios",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 85,
+      "status": "skipped",
+      "duration": 2919,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a lista de usuarios",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 66,
+      "status": "skipped",
+      "duration": 3400,
+      "error": null
+    },
+    {
+      "title": "Admin: Verificar menú de navegación completo",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 35,
+      "status": "passed",
+      "duration": 4292,
+      "error": null
+    },
+    {
+      "title": "Admin: Ver detalle de usuario",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 101,
+      "status": "skipped",
+      "duration": 2413,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso al dashboard principal",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 22,
+      "status": "passed",
+      "duration": 5434,
+      "error": null
+    },
+    {
+      "title": "Admin: Filtros de productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 139,
+      "status": "passed",
+      "duration": 6003,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a lista de productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 126,
+      "status": "passed",
+      "duration": 6856,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a crear producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 151,
+      "status": "passed",
+      "duration": 6792,
+      "error": null
+    },
+    {
+      "title": "Admin: Ver detalle de producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 164,
+      "status": "failed",
+      "duration": 6532,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/products/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/products\"\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/products/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/products\"\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js:180:17"
+      }
+    },
+    {
+      "title": "Admin: Filtros de pedidos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 201,
+      "status": "passed",
+      "duration": 5261,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a lista de pedidos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 186,
+      "status": "passed",
+      "duration": 5396,
+      "error": null
+    },
+    {
+      "title": "Admin: Ver detalle de pedido",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 213,
+      "status": "skipped",
+      "duration": 5369,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a reportes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 249,
+      "status": "skipped",
+      "duration": 2663,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a crear pedido",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 234,
+      "status": "passed",
+      "duration": 4177,
+      "error": null
+    },
+    {
+      "title": "Admin: Filtros de fecha en reportes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 264,
+      "status": "skipped",
+      "duration": 2290,
+      "error": null
+    },
+    {
+      "title": "Admin: Ver detalle de producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 164,
+      "status": "failed",
+      "duration": 5667,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/products/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/products\"\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/products/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/products\"\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js:180:17"
+      }
+    },
+    {
+      "title": "Admin: Acceso a wallet",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 281,
+      "status": "passed",
+      "duration": 5294,
+      "error": null
+    },
+    {
+      "title": "Admin: Ver movimientos de wallet",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 293,
+      "status": "passed",
+      "duration": 5011,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a tiendas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 307,
+      "status": "passed",
+      "duration": 5075,
+      "error": null
+    },
+    {
+      "title": "Admin: Crear pack",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 339,
+      "status": "passed",
+      "duration": 3609,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a packs",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 325,
+      "status": "passed",
+      "duration": 4691,
+      "error": null
+    },
+    {
+      "title": "@stable @smoke debería iniciar sesión exitosamente con credenciales válidas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\auth\\login.spec.js",
+      "line": 17,
+      "status": "passed",
+      "duration": 3363,
+      "error": null
+    },
+    {
+      "title": "@stable debería mostrar mensaje de error con credenciales inválidas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\auth\\login.spec.js",
+      "line": 29,
+      "status": "passed",
+      "duration": 2723,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Banner de verificación visible en homepage",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 33,
+      "status": "skipped",
+      "duration": 11715,
+      "error": null
+    },
+    {
+      "title": "Admin: Verificar rol de administrador",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 368,
+      "status": "passed",
+      "duration": 27321,
+      "error": null
+    },
+    {
+      "title": "Admin: Acceso a perfil",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 357,
+      "status": "passed",
+      "duration": 27911,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Título y mensaje del banner son correctos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 42,
+      "status": "skipped",
+      "duration": 10976,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Botón \"Iniciar verificación\" visible y clickeable",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 53,
+      "status": "skipped",
+      "duration": 10622,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Click en botón abre modal de verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 64,
+      "status": "skipped",
+      "duration": 10477,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Flujo completo hasta código QR",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 82,
+      "status": "skipped",
+      "duration": 10115,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Acceso a perfil para verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 106,
+      "status": "passed",
+      "duration": 8374,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Secciones del perfil visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 123,
+      "status": "passed",
+      "duration": 9055,
+      "error": null
+    },
+    {
+      "title": "Admin: Recorrer todas las secciones principales",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\admin\\admin-flujos-completos.spec.js",
+      "line": 392,
+      "status": "passed",
+      "duration": 47297,
+      "error": null
+    },
+    {
+      "title": "Perfil: Wizard de onboarding muestra pasos de verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 180,
+      "status": "passed",
+      "duration": 5026,
+      "error": null
+    },
+    {
+      "title": "KYC Proveedor: Banner aparece en múltiples páginas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 150,
+      "status": "skipped",
+      "duration": 10844,
+      "error": null
+    },
+    {
+      "title": "Perfil: Sección de seguridad visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 205,
+      "status": "passed",
+      "duration": 5181,
+      "error": null
+    },
+    {
+      "title": "Lista de pedidos carga y muestra datos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 26,
+      "status": "passed",
+      "duration": 3171,
+      "error": null
+    },
+    {
+      "title": "Validación: Gestión de pedidos con KYC pendiente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 245,
+      "status": "passed",
+      "duration": 4765,
+      "error": null
+    },
+    {
+      "title": "Validación: Reportes accesibles con KYC pendiente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 264,
+      "status": "passed",
+      "duration": 5397,
+      "error": null
+    },
+    {
+      "title": "Filas de pedidos son interactivas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 44,
+      "status": "failed",
+      "duration": 2741,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:82:27"
+      }
+    },
+    {
+      "title": "Pedidos muestran columnas esperadas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 85,
+      "status": "passed",
+      "duration": 3095,
+      "error": null
+    },
+    {
+      "title": "Validación: Publicar productos requiere KYC",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-proveedor.spec.js",
+      "line": 220,
+      "status": "skipped",
+      "duration": 10338,
+      "error": null
+    },
+    {
+      "title": "Cada pedido muestra estado con badge o indicador",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 107,
+      "status": "failed",
+      "duration": 3468,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:157:29"
+      }
+    },
+    {
+      "title": "Checkboxes de selección presentes en filas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 160,
+      "status": "failed",
+      "duration": 3200,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:195:32"
+      }
+    },
+    {
+      "title": "Acciones por fila disponibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 198,
+      "status": "failed",
+      "duration": 3491,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:243:27"
+      }
+    },
+    {
+      "title": "Filas de pedidos son interactivas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 44,
+      "status": "failed",
+      "duration": 4109,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:82:27"
+      }
+    },
+    {
+      "title": "Cada pedido muestra estado con badge o indicador",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 107,
+      "status": "failed",
+      "duration": 4526,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:157:29"
+      }
+    },
+    {
+      "title": "Checkboxes de selección presentes en filas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 160,
+      "status": "failed",
+      "duration": 4024,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:195:32"
+      }
+    },
+    {
+      "title": "Acciones por fila disponibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js",
+      "line": 198,
+      "status": "failed",
+      "duration": 5024,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\detalle-pedido.spec.js:243:27"
+      }
+    },
+    {
+      "title": "Filtro por estado - Todos los tabs visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\filtros-pedidos.spec.js",
+      "line": 27,
+      "status": "passed",
+      "duration": 3652,
+      "error": null
+    },
+    {
+      "title": "Barra de búsqueda visible y funcional",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\filtros-pedidos.spec.js",
+      "line": 64,
+      "status": "passed",
+      "duration": 4766,
+      "error": null
+    },
+    {
+      "title": "Dropdown de filtros adicionales",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\filtros-pedidos.spec.js",
+      "line": 119,
+      "status": "passed",
+      "duration": 3727,
+      "error": null
+    },
+    {
+      "title": "Filtro por fecha visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\filtros-pedidos.spec.js",
+      "line": 97,
+      "status": "passed",
+      "duration": 4377,
+      "error": null
+    },
+    {
+      "title": "Filtro por estado - Cambiar entre tabs",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\filtros-pedidos.spec.js",
+      "line": 50,
+      "status": "passed",
+      "duration": 7686,
+      "error": null
+    },
+    {
+      "title": "Búsqueda disponible (botón o automática)",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\filtros-pedidos.spec.js",
+      "line": 137,
+      "status": "passed",
+      "duration": 3345,
+      "error": null
+    },
+    {
+      "title": "Página de pedidos carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 27,
+      "status": "passed",
+      "duration": 6126,
+      "error": null
+    },
+    {
+      "title": "Tabla de pedidos tiene estructura correcta",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 36,
+      "status": "passed",
+      "duration": 6545,
+      "error": null
+    },
+    {
+      "title": "Controles de paginación existen cuando hay suficientes datos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 58,
+      "status": "passed",
+      "duration": 6184,
+      "error": null
+    },
+    {
+      "title": "Selector de items por página existe en paginador",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 80,
+      "status": "passed",
+      "duration": 6239,
+      "error": null
+    },
+    {
+      "title": "Checkboxes de selección múltiple presentes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 110,
+      "status": "passed",
+      "duration": 2758,
+      "error": null
+    },
+    {
+      "title": "Checkbox \"seleccionar todos\" en header",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 126,
+      "status": "passed",
+      "duration": 2658,
+      "error": null
+    },
+    {
+      "title": "Checkboxes de selección son clickeables",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 144,
+      "status": "skipped",
+      "duration": 2704,
+      "error": null
+    },
+    {
+      "title": "Botón de exportar disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 173,
+      "status": "failed",
+      "duration": 2856,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js:207:28"
+      }
+    },
+    {
+      "title": "Pagina de productos carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 35,
+      "status": "passed",
+      "duration": 2743,
+      "error": null
+    },
+    {
+      "title": "Botón de exportar disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js",
+      "line": 173,
+      "status": "failed",
+      "duration": 3342,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\paginacion-acciones-masivas.spec.js:207:28"
+      }
+    },
+    {
+      "title": "Tabla o grilla de productos visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 43,
+      "status": "passed",
+      "duration": 4088,
+      "error": null
+    },
+    {
+      "title": "Seleccion de producto funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 73,
+      "status": "passed",
+      "duration": 4213,
+      "error": null
+    },
+    {
+      "title": "Checkboxes de seleccion presentes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 58,
+      "status": "passed",
+      "duration": 7892,
+      "error": null
+    },
+    {
+      "title": "Boton de cambiar estado disponible al seleccionar",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 105,
+      "status": "failed",
+      "duration": 9184,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js:136:31"
+      }
+    },
+    {
+      "title": "Boton de cambiar estado disponible al seleccionar",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 105,
+      "status": "failed",
+      "duration": 8586,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js:136:31"
+      }
+    },
+    {
+      "title": "Headers de tabla permiten ordenamiento",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 192,
+      "status": "passed",
+      "duration": 2768,
+      "error": null
+    },
+    {
+      "title": "Click en header cambia orden o tiene indicador",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 210,
+      "status": "passed",
+      "duration": 2757,
+      "error": null
+    },
+    {
+      "title": "Filas de productos tienen acciones",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 271,
+      "status": "passed",
+      "duration": 2857,
+      "error": null
+    },
+    {
+      "title": "Boton de menu de acciones existe",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 303,
+      "status": "passed",
+      "duration": 4393,
+      "error": null
+    },
+    {
+      "title": "debería generar picking list para un pedido como proveedor",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\generar-picking-list.spec.js",
+      "line": 20,
+      "status": "passed",
+      "duration": 65257,
+      "error": null
+    },
+    {
+      "title": "debería generar picking list para múltiples pedidos como proveedor",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\generar-picking-list.spec.js",
+      "line": 52,
+      "status": "passed",
+      "duration": 67101,
+      "error": null
+    },
+    {
+      "title": "Debe cargar la página de creación de productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 34,
+      "status": "passed",
+      "duration": 3913,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar el título \"Agregar Producto\"",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 43,
+      "status": "passed",
+      "duration": 3968,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar el selector de categoría",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 49,
+      "status": "passed",
+      "duration": 3782,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar Tipo de Fulfillment",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 106,
+      "status": "passed",
+      "duration": 3579,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar los campos de información básica",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 59,
+      "status": "passed",
+      "duration": 7040,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar sección Proveedor",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 121,
+      "status": "passed",
+      "duration": 5297,
+      "error": null
+    },
+    {
+      "title": "Boton de exportar productos visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\acciones-productos.spec.js",
+      "line": 154,
+      "status": "passed",
+      "duration": 45523,
+      "error": null
+    },
+    {
+      "title": "Debe poder escribir en el campo de título",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 156,
+      "status": "passed",
+      "duration": 3805,
+      "error": null
+    },
+    {
+      "title": "Debe poder abrir el selector de categorías",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 143,
+      "status": "passed",
+      "duration": 5172,
+      "error": null
+    },
+    {
+      "title": "Debe poder escribir en la descripción (editor rico)",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 178,
+      "status": "passed",
+      "duration": 3583,
+      "error": null
+    },
+    {
+      "title": "Debe poder abrir selector de Tipo de Fulfillment",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 212,
+      "status": "passed",
+      "duration": 4702,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar el formulario con campos requeridos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 240,
+      "status": "failed",
+      "duration": 12087,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:261:31"
+      }
+    },
+    {
+      "title": "Debe mostrar el formulario con campos requeridos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 240,
+      "status": "failed",
+      "duration": 12366,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:261:31"
+      }
+    },
+    {
+      "title": "Debe mostrar banner de KYC si no está verificado",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 267,
+      "status": "passed",
+      "duration": 3689,
+      "error": null
+    },
+    {
+      "title": "Debe permitir seleccionar diferentes estados de producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 283,
+      "status": "failed",
+      "duration": 11263,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Público').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Público').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Público').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Público').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:290:33"
+      }
+    },
+    {
+      "title": "Debe mostrar Estado del Producto con opciones",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 88,
+      "status": "failed",
+      "duration": 67673,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:91:31"
+      }
+    },
+    {
+      "title": "Debe mostrar el toggle de Marcar como destacado",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 116,
+      "status": "failed",
+      "duration": 67792,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Marcar como destacado')\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Marcar como destacado')\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Marcar como destacado')\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Marcar como destacado')\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:118:35"
+      }
+    },
+    {
+      "title": "Debe permitir seleccionar diferentes estados de producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 283,
+      "status": "failed",
+      "duration": 11349,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Público').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Público').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Público').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Público').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:290:33"
+      }
+    },
+    {
+      "title": "Debe poder seleccionar estado del producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 192,
+      "status": "failed",
+      "duration": 68302,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:199:39"
+      }
+    },
+    {
+      "title": "Formulario debe tener estructura de dos columnas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 319,
+      "status": "failed",
+      "duration": 9268,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Estado del Producto').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Estado del Producto').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:322:36"
+      }
+    },
+    {
+      "title": "Formulario debe tener estructura de dos columnas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 319,
+      "status": "failed",
+      "duration": 9289,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Estado del Producto').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Estado del Producto').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Estado del Producto').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:322:36"
+      }
+    },
+    {
+      "title": "Debe navegar desde lista de productos a crear producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 337,
+      "status": "passed",
+      "duration": 4254,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar Estado del Producto con opciones",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 88,
+      "status": "failed",
+      "duration": 67297,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Estado del Producto').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Estado del Producto').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:91:31"
+      }
+    },
+    {
+      "title": "Debe mostrar campos de precio al hacer scroll",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 419,
+      "status": "passed",
+      "duration": 4682,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar el toggle de Marcar como destacado",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 116,
+      "status": "failed",
+      "duration": 67424,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Marcar como destacado')\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Marcar como destacado')\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Marcar como destacado')\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Marcar como destacado')\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:118:35"
+      }
+    },
+    {
+      "title": "Debe mostrar el área de subida de imágenes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 549,
+      "status": "passed",
+      "duration": 3746,
+      "error": null
+    },
+    {
+      "title": "Debe crear un producto completo con todos los campos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 446,
+      "status": "passed",
+      "duration": 6967,
+      "error": null
+    },
+    {
+      "title": "Debe indicar formatos de imagen aceptados",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 576,
+      "status": "passed",
+      "duration": 3774,
+      "error": null
+    },
+    {
+      "title": "Debe indicar límite de tamaño de archivo",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 594,
+      "status": "passed",
+      "duration": 3930,
+      "error": null
+    },
+    {
+      "title": "Debe poder seleccionar estado del producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 192,
+      "status": "failed",
+      "duration": 68482,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:199:39"
+      }
+    },
+    {
+      "title": "Proveedor debe tener acceso a crear productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 614,
+      "status": "passed",
+      "duration": 4721,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar mensajes de ayuda en el formulario",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 626,
+      "status": "passed",
+      "duration": 3675,
+      "error": null
+    },
+    {
+      "title": "Lista de productos carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 35,
+      "status": "passed",
+      "duration": 3217,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar link a estándares de publicación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 653,
+      "status": "failed",
+      "duration": 4045,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:665:20"
+      }
+    },
+    {
+      "title": "Debe mostrar iconos de información en campos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 641,
+      "status": "passed",
+      "duration": 4916,
+      "error": null
+    },
+    {
+      "title": "Productos muestran informacion basica en lista",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 44,
+      "status": "passed",
+      "duration": 2815,
+      "error": null
+    },
+    {
+      "title": "Filas de productos son interactivas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 77,
+      "status": "passed",
+      "duration": 3229,
+      "error": null
+    },
+    {
+      "title": "Productos muestran imagen o placeholder",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 140,
+      "status": "passed",
+      "duration": 3542,
+      "error": null
+    },
+    {
+      "title": "Debe mostrar link a estándares de publicación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 653,
+      "status": "failed",
+      "duration": 4421,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:665:20"
+      }
+    },
+    {
+      "title": "Productos muestran precio",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 181,
+      "status": "passed",
+      "duration": 3198,
+      "error": null
+    },
+    {
+      "title": "Productos muestran estado/badge",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 265,
+      "status": "passed",
+      "duration": 3513,
+      "error": null
+    },
+    {
+      "title": "Columnas de tabla correctas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 294,
+      "status": "passed",
+      "duration": 3157,
+      "error": null
+    },
+    {
+      "title": "Informacion de stock visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 322,
+      "status": "passed",
+      "duration": 5459,
+      "error": null
+    },
+    {
+      "title": "Filtro por Proveedor disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 65,
+      "status": "failed",
+      "duration": 3743,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:87:30"
+      }
+    },
+    {
+      "title": "Barra de búsqueda de productos funcional",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 31,
+      "status": "passed",
+      "duration": 5258,
+      "error": null
+    },
+    {
+      "title": "Se puede navegar al detalle de un producto",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\detalle-producto.spec.js",
+      "line": 366,
+      "status": "passed",
+      "duration": 9039,
+      "error": null
+    },
+    {
+      "title": "Filtro por Categoría disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 91,
+      "status": "failed",
+      "duration": 3201,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:113:30"
+      }
+    },
+    {
+      "title": "Debe poder interactuar con el formulario de creación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 377,
+      "status": "failed",
+      "duration": 73912,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:390:39"
+      }
+    },
+    {
+      "title": "Filtro por Estado disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 117,
+      "status": "failed",
+      "duration": 3473,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:139:30"
+      }
+    },
+    {
+      "title": "Filtro por Proveedor disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 65,
+      "status": "failed",
+      "duration": 4450,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:87:30"
+      }
+    },
+    {
+      "title": "Filtro por Categoría disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 91,
+      "status": "failed",
+      "duration": 4464,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:113:30"
+      }
+    },
+    {
+      "title": "Filtro por Estado disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 117,
+      "status": "failed",
+      "duration": 5155,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:139:30"
+      }
+    },
+    {
+      "title": "Filtro por rango de Precio disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 143,
+      "status": "failed",
+      "duration": 3506,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:166:30"
+      }
+    },
+    {
+      "title": "Checkbox \"Mostrar sin stock\" funcional",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 170,
+      "status": "passed",
+      "duration": 3183,
+      "error": null
+    },
+    {
+      "title": "Tabs de filtro rápido visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 196,
+      "status": "passed",
+      "duration": 3397,
+      "error": null
+    },
+    {
+      "title": "Filtros se aplican y actualizan la lista",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 206,
+      "status": "failed",
+      "duration": 3471,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:218:28"
+      }
+    },
+    {
+      "title": "Filtro por rango de Precio disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 143,
+      "status": "failed",
+      "duration": 4994,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:166:30"
+      }
+    },
+    {
+      "title": "Página de productos carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 32,
+      "status": "passed",
+      "duration": 3460,
+      "error": null
+    },
+    {
+      "title": "Toggle Vista Lista/Grilla disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 72,
+      "status": "failed",
+      "duration": 3341,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js:98:30"
+      }
+    },
+    {
+      "title": "Header \"Productos\" visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 47,
+      "status": "passed",
+      "duration": 3779,
+      "error": null
+    },
+    {
+      "title": "Filtros se aplican y actualizan la lista",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js",
+      "line": 206,
+      "status": "failed",
+      "duration": 6272,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\filtros-productos.spec.js:230:60"
+      }
+    },
+    {
+      "title": "Tabla de productos tiene columnas correctas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 102,
+      "status": "passed",
+      "duration": 3186,
+      "error": null
+    },
+    {
+      "title": "Toggle Vista Lista/Grilla disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 72,
+      "status": "failed",
+      "duration": 4094,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js:98:30"
+      }
+    },
+    {
+      "title": "Productos muestran precio",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 150,
+      "status": "failed",
+      "duration": 3219,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js:172:32"
+      }
+    },
+    {
+      "title": "Productos muestran imagen",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 136,
+      "status": "passed",
+      "duration": 3264,
+      "error": null
+    },
+    {
+      "title": "Productos muestran estado (badge)",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 176,
+      "status": "passed",
+      "duration": 3699,
+      "error": null
+    },
+    {
+      "title": "Paginación de productos funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 208,
+      "status": "passed",
+      "duration": 3303,
+      "error": null
+    },
+    {
+      "title": "Productos muestran precio",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\lista-productos.spec.js",
+      "line": 150,
+      "status": "passed",
+      "duration": 4584,
+      "error": null
+    },
+    {
+      "title": "@stable UI: Verificar icono de campana en header",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js",
+      "line": 63,
+      "status": "failed",
+      "duration": 3425,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js:71:28"
+      }
+    },
+    {
+      "title": "@stable UI: Verificar que página de notificaciones carga",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js",
+      "line": 23,
+      "status": "passed",
+      "duration": 8328,
+      "error": null
+    },
+    {
+      "title": "UI: Verificar estructura visual de lista de notificaciones",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js",
+      "line": 44,
+      "status": "skipped",
+      "duration": 8337,
+      "error": null
+    },
+    {
+      "title": "@stable UI: Verificar icono de campana en header",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js",
+      "line": 63,
+      "status": "failed",
+      "duration": 4062,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js:71:28"
+      }
+    },
+    {
+      "title": "UI: Verificar badge de notificaciones no leidas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js",
+      "line": 74,
+      "status": "passed",
+      "duration": 3993,
+      "error": null
+    },
+    {
+      "title": "UI: Verificar si reportes requiere verificacion KYC",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 67,
+      "status": "passed",
+      "duration": 2221,
+      "error": null
+    },
+    {
+      "title": "@stable UI: Pagina de reportes carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 34,
+      "status": "passed",
+      "duration": 1983,
+      "error": null
+    },
+    {
+      "title": "UI: Verificar interacción hover en notificaciones",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\notifications\\notifications-ui.spec.js",
+      "line": 93,
+      "status": "skipped",
+      "duration": 8391,
+      "error": null
+    },
+    {
+      "title": "@stable UI: Pagina de reportes carga sin errores de consola criticos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 187,
+      "status": "passed",
+      "duration": 2186,
+      "error": null
+    },
+    {
+      "title": "UI: Verificar elementos del formulario de reportes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 146,
+      "status": "failed",
+      "duration": 5203,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js:184:37"
+      }
+    },
+    {
+      "title": "UI: Verificar responsividad de pagina de reportes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 220,
+      "status": "passed",
+      "duration": 1843,
+      "error": null
+    },
+    {
+      "title": "UI: Navegacion a reportes desde menu",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 96,
+      "status": "passed",
+      "duration": 7872,
+      "error": null
+    },
+    {
+      "title": "UI: Verificar elementos del formulario de reportes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 146,
+      "status": "passed",
+      "duration": 2136,
+      "error": null
+    },
+    {
+      "title": "Funcional: Intentar generar reporte de ventas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 275,
+      "status": "passed",
+      "duration": 9785,
+      "error": null
+    },
+    {
+      "title": "Funcional: Verificar si hay datos en tabla de reportes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\reports\\reports-ui.spec.js",
+      "line": 324,
+      "status": "passed",
+      "duration": 10268,
+      "error": null
+    },
+    {
+      "title": "KYC Dropshipper: Banner de verificación visible en homepage",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 34,
+      "status": "skipped",
+      "duration": 10580,
+      "error": null
+    },
+    {
+      "title": "Debe poder interactuar con el formulario de creación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js",
+      "line": 377,
+      "status": "failed",
+      "duration": 72589,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=/Oculto|Privado/').first()\nExpected: visible\nTimeout: 60000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=/Oculto|Privado/').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\crear-producto.spec.js:390:39"
+      }
+    },
+    {
+      "title": "KYC Dropshipper: Título y mensaje del banner son correctos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 43,
+      "status": "skipped",
+      "duration": 10897,
+      "error": null
+    },
+    {
+      "title": "KYC Dropshipper: Botón \"Iniciar verificación\" visible y clickeable",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 54,
+      "status": "skipped",
+      "duration": 11007,
+      "error": null
+    },
+    {
+      "title": "KYC Dropshipper: Click en botón abre modal de verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 65,
+      "status": "skipped",
+      "duration": 10631,
+      "error": null
+    },
+    {
+      "title": "KYC Dropshipper: Flujo completo hasta código QR",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 83,
+      "status": "skipped",
+      "duration": 10526,
+      "error": null
+    },
+    {
+      "title": "KYC Dropshipper: Banner aparece en múltiples páginas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 107,
+      "status": "skipped",
+      "duration": 10308,
+      "error": null
+    },
+    {
+      "title": "KYC Dropshipper: Acceso a perfil para verificación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 132,
+      "status": "passed",
+      "duration": 8437,
+      "error": null
+    },
+    {
+      "title": "Validación: Funcionalidades bloqueadas sin KYC",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 154,
+      "status": "skipped",
+      "duration": 10267,
+      "error": null
+    },
+    {
+      "title": "Validación: Solicitar retiro requiere KYC",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\kyc\\verificacion-identidad-dropshipper.spec.js",
+      "line": 173,
+      "status": "skipped",
+      "duration": 9970,
+      "error": null
+    },
+    {
+      "title": "E2E: Crear orden completa con producto, tienda y datos de envío",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\crear-orden.spec.js",
+      "line": 39,
+      "status": "passed",
+      "duration": 66626,
+      "error": null
+    },
+    {
+      "title": "E2E: Verificar formulario de crear pedido carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\crear-orden.spec.js",
+      "line": 95,
+      "status": "passed",
+      "duration": 66572,
+      "error": null
+    },
+    {
+      "title": "E2E: Llenar datos de envío usando selectores del frontend",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\crear-orden.spec.js",
+      "line": 136,
+      "status": "passed",
+      "duration": 66295,
+      "error": null
+    },
+    {
+      "title": "Orders New: Página carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 36,
+      "status": "passed",
+      "duration": 2682,
+      "error": null
+    },
+    {
+      "title": "E2E: Seleccionar producto y tienda",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\crear-orden.spec.js",
+      "line": 175,
+      "status": "passed",
+      "duration": 65375,
+      "error": null
+    },
+    {
+      "title": "Orders New: Sección Detalles del Pedido visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 45,
+      "status": "passed",
+      "duration": 2698,
+      "error": null
+    },
+    {
+      "title": "Orders New: Sección Datos de Envío tiene todos los campos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 82,
+      "status": "failed",
+      "duration": 2636,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m4\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m4\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:106:28"
+      }
+    },
+    {
+      "title": "Orders New: Sección Datos de Envío tiene todos los campos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 82,
+      "status": "failed",
+      "duration": 4134,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m4\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m4\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:106:28"
+      }
+    },
+    {
+      "title": "Orders New: Dropdown Tipo de Envío funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 68,
+      "status": "failed",
+      "duration": 34268,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:71:33"
+      }
+    },
+    {
+      "title": "Orders New: Botón Modificar Datos visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 109,
+      "status": "failed",
+      "duration": 34497,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:111:34"
+      }
+    },
+    {
+      "title": "E2E: Flujo completo - crear orden y verificar botón Aceptar",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\crear-orden.spec.js",
+      "line": 233,
+      "status": "passed",
+      "duration": 66686,
+      "error": null
+    },
+    {
+      "title": "UI: Verificar todos los campos del formulario están presentes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\crear-orden.spec.js",
+      "line": 341,
+      "status": "passed",
+      "duration": 67460,
+      "error": null
+    },
+    {
+      "title": "Orders New: Sección Seguimiento visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 122,
+      "status": "failed",
+      "duration": 3439,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:131:26"
+      }
+    },
+    {
+      "title": "Orders New: Sección Productos visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 140,
+      "status": "passed",
+      "duration": 2864,
+      "error": null
+    },
+    {
+      "title": "Orders New: Sección Historial de Estados visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 153,
+      "status": "failed",
+      "duration": 2674,
+      "error": {
+        "message": "Error: locator.isVisible: Error: strict mode violation: locator('text=Historial de Estados') resolved to 2 elements:\n    1) <h3 _ngcontent-ng-c313483919=\"\">…</h3> aka getByRole('heading', { name: 'Historial de Estados ' })\n    2) <p _ngcontent-ng-c313483919=\"\">No hay historial de estados</p> aka getByText('No hay historial de estados')\n\nCall log:\n\u001b[2m    - checking visibility of locator('text=Historial de Estados')\u001b[22m\n",
+        "stack": "Error: locator.isVisible: Error: strict mode violation: locator('text=Historial de Estados') resolved to 2 elements:\n    1) <h3 _ngcontent-ng-c313483919=\"\">…</h3> aka getByRole('heading', { name: 'Historial de Estados ' })\n    2) <p _ngcontent-ng-c313483919=\"\">No hay historial de estados</p> aka getByText('No hay historial de estados')\n\nCall log:\n\u001b[2m    - checking visibility of locator('text=Historial de Estados')\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:156:47"
+      }
+    },
+    {
+      "title": "Orders New: Sección Seguimiento visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 122,
+      "status": "failed",
+      "duration": 3292,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:131:26"
+      }
+    },
+    {
+      "title": "Orders New: Dropdown Tipo de Envío funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 68,
+      "status": "failed",
+      "duration": 35619,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('text=Contrareembolso').or(locator('text=Tipo de Envío')).first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:71:33"
+      }
+    },
+    {
+      "title": "Orders New: Sección Historial de Estados visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 153,
+      "status": "failed",
+      "duration": 3225,
+      "error": {
+        "message": "Error: locator.isVisible: Error: strict mode violation: locator('text=Historial de Estados') resolved to 2 elements:\n    1) <h3 _ngcontent-ng-c313483919=\"\">…</h3> aka getByRole('heading', { name: 'Historial de Estados ' })\n    2) <p _ngcontent-ng-c313483919=\"\">No hay historial de estados</p> aka getByText('No hay historial de estados')\n\nCall log:\n\u001b[2m    - checking visibility of locator('text=Historial de Estados')\u001b[22m\n",
+        "stack": "Error: locator.isVisible: Error: strict mode violation: locator('text=Historial de Estados') resolved to 2 elements:\n    1) <h3 _ngcontent-ng-c313483919=\"\">…</h3> aka getByRole('heading', { name: 'Historial de Estados ' })\n    2) <p _ngcontent-ng-c313483919=\"\">No hay historial de estados</p> aka getByText('No hay historial de estados')\n\nCall log:\n\u001b[2m    - checking visibility of locator('text=Historial de Estados')\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:156:47"
+      }
+    },
+    {
+      "title": "Orders New: Sección Wallet visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 170,
+      "status": "passed",
+      "duration": 3321,
+      "error": null
+    },
+    {
+      "title": "Orders New: Dropdown País funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 207,
+      "status": "passed",
+      "duration": 3275,
+      "error": null
+    },
+    {
+      "title": "Orders New: Sección Notas con botón Agregar",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 191,
+      "status": "passed",
+      "duration": 3651,
+      "error": null
+    },
+    {
+      "title": "Orders New: Botón Modificar Datos visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 109,
+      "status": "failed",
+      "duration": 34643,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Modificar Datos' }).or(locator('button:has-text(\"Modificar Datos\")'))\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:111:34"
+      }
+    },
+    {
+      "title": "Packs: Página de creación carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 31,
+      "status": "passed",
+      "duration": 6436,
+      "error": null
+    },
+    {
+      "title": "Packs: Formulario Crear Pack tiene campos correctos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 46,
+      "status": "passed",
+      "duration": 6596,
+      "error": null
+    },
+    {
+      "title": "Packs: Dropdown Seleccionar Variante funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 116,
+      "status": "passed",
+      "duration": 5297,
+      "error": null
+    },
+    {
+      "title": "Packs: Dropdown Seleccionar Producto funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 90,
+      "status": "passed",
+      "duration": 6389,
+      "error": null
+    },
+    {
+      "title": "Packs: Sección Productos del Pack visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 72,
+      "status": "passed",
+      "duration": 5431,
+      "error": null
+    },
+    {
+      "title": "Packs: Botón Agregar Producto funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 141,
+      "status": "passed",
+      "duration": 6248,
+      "error": null
+    },
+    {
+      "title": "Packs: Botones Cancelar y Crear Pack visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 172,
+      "status": "passed",
+      "duration": 6891,
+      "error": null
+    },
+    {
+      "title": "Packs: Seleccionar estado Activo/Inactivo",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 189,
+      "status": "passed",
+      "duration": 6435,
+      "error": null
+    },
+    {
+      "title": "E2E: Crear pack con nombre y estado",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 216,
+      "status": "passed",
+      "duration": 6503,
+      "error": null
+    },
+    {
+      "title": "Packs: Campo Cantidad existe y acepta números",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 124,
+      "status": "failed",
+      "duration": 15747,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js:126:33"
+      }
+    },
+    {
+      "title": "E2E: Cancelar creación de pack",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 246,
+      "status": "passed",
+      "duration": 7114,
+      "error": null
+    },
+    {
+      "title": "E2E: Llenar formulario de nuevo pedido",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 235,
+      "status": "failed",
+      "duration": 35980,
+      "error": {
+        "message": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"email\"], input#email, input[type=\"email\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input pc89=\"\" readonly id=\"email\" type=\"email\" pinputtext=\"\" _ngcontent-ng-c3780175195=\"\" class=\"p-inputtext p-component w-full ng-untouched ng-pristine ng-valid\"/>\u001b[22m\n\u001b[2m    - fill(\"test.e2e@example.com\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m       - element is not editable\u001b[22m\n\u001b[2m     - retrying fill action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+        "stack": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"email\"], input#email, input[type=\"email\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input pc89=\"\" readonly id=\"email\" type=\"email\" pinputtext=\"\" _ngcontent-ng-c3780175195=\"\" class=\"p-inputtext p-component w-full ng-untouched ng-pristine ng-valid\"/>\u001b[22m\n\u001b[2m    - fill(\"test.e2e@example.com\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m       - element is not editable\u001b[22m\n\u001b[2m     - retrying fill action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:269:21"
+      }
+    },
+    {
+      "title": "Packs: Campo Cantidad existe y acepta números",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js",
+      "line": 124,
+      "status": "failed",
+      "duration": 15975,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('input[type=\"number\"], input[placeholder*=\"0\"], input[name=\"cantidad\"]').first()\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\packs\\packs.spec.js:126:33"
+      }
+    },
+    {
+      "title": "debería validar estados cancelables según lógica de negocio",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\cancelar-pedido.spec.js",
+      "line": 127,
+      "status": "passed",
+      "duration": 325,
+      "error": null
+    },
+    {
+      "title": "debería validar permisos de cancelación por rol",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\cancelar-pedido.spec.js",
+      "line": 161,
+      "status": "passed",
+      "duration": 261,
+      "error": null
+    },
+    {
+      "title": "Formulario de crear pedido carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 22,
+      "status": "passed",
+      "duration": 1943,
+      "error": null
+    },
+    {
+      "title": "Seccion \"Detalles del pedido\" visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 61,
+      "status": "passed",
+      "duration": 2719,
+      "error": null
+    },
+    {
+      "title": "Selector de Tienda funcional",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 98,
+      "status": "passed",
+      "duration": 7106,
+      "error": null
+    },
+    {
+      "title": "debería cancelar un pedido exitosamente como dropshipper",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\cancelar-pedido.spec.js",
+      "line": 54,
+      "status": "passed",
+      "duration": 43419,
+      "error": null
+    },
+    {
+      "title": "E2E: Llenar formulario de nuevo pedido",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js",
+      "line": 235,
+      "status": "failed",
+      "duration": 35934,
+      "error": {
+        "message": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"email\"], input#email, input[type=\"email\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input pc89=\"\" readonly id=\"email\" type=\"email\" pinputtext=\"\" _ngcontent-ng-c3780175195=\"\" class=\"p-inputtext p-component w-full ng-untouched ng-pristine ng-valid\"/>\u001b[22m\n\u001b[2m    - fill(\"test.e2e@example.com\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m       - element is not editable\u001b[22m\n\u001b[2m     - retrying fill action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+        "stack": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"email\"], input#email, input[type=\"email\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input pc89=\"\" readonly id=\"email\" type=\"email\" pinputtext=\"\" _ngcontent-ng-c3780175195=\"\" class=\"p-inputtext p-component w-full ng-untouched ng-pristine ng-valid\"/>\u001b[22m\n\u001b[2m    - fill(\"test.e2e@example.com\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not editable\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m       - element is not editable\u001b[22m\n\u001b[2m     - retrying fill action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\orders\\orders-new.spec.js:269:21"
+      }
+    },
+    {
+      "title": "Selector de Operador Logistico visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 144,
+      "status": "failed",
+      "duration": 13583,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:163:37"
+      }
+    },
+    {
+      "title": "Seccion de Productos con boton \"Anadir producto\"",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 166,
+      "status": "passed",
+      "duration": 3645,
+      "error": null
+    },
+    {
+      "title": "NO debería mostrar opción cancelar en pedidos enviados",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\cancelar-pedido.spec.js",
+      "line": 98,
+      "status": "passed",
+      "duration": 43441,
+      "error": null
+    },
+    {
+      "title": "Calculo de Subtotal y Beneficio visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 239,
+      "status": "failed",
+      "duration": 12239,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:263:33"
+      }
+    },
+    {
+      "title": "Seccion \"Datos de envio\" con campos obligatorios",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 203,
+      "status": "passed",
+      "duration": 17130,
+      "error": null
+    },
+    {
+      "title": "Selector de Operador Logistico visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 144,
+      "status": "failed",
+      "duration": 14512,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:163:37"
+      }
+    },
+    {
+      "title": "Botones Cancelar y Aceptar/Guardar presentes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 266,
+      "status": "failed",
+      "duration": 14053,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:294:55"
+      }
+    },
+    {
+      "title": "debería verificar permisos de asociación de productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 64,
+      "status": "passed",
+      "duration": 13,
+      "error": null
+    },
+    {
+      "title": "debería validar requisito de KYC para asociación",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 92,
+      "status": "passed",
+      "duration": 5,
+      "error": null
+    },
+    {
+      "title": "debería verificar tipos de tienda soportados",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 117,
+      "status": "passed",
+      "duration": 7,
+      "error": null
+    },
+    {
+      "title": "Validacion de campos obligatorios al enviar vacio",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 297,
+      "status": "failed",
+      "duration": 8186,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:355:31"
+      }
+    },
+    {
+      "title": "Calculo de Subtotal y Beneficio visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 239,
+      "status": "failed",
+      "duration": 12842,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:263:33"
+      }
+    },
+    {
+      "title": "debería validar límite de tiendas por dropshipper",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 168,
+      "status": "passed",
+      "duration": 11,
+      "error": null
+    },
+    {
+      "title": "debería validar estados de conexión de tienda",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 184,
+      "status": "passed",
+      "duration": 11,
+      "error": null
+    },
+    {
+      "title": "@stable @smoke Profile: Página carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\profile\\profile.spec.js",
+      "line": 26,
+      "status": "passed",
+      "duration": 4995,
+      "error": null
+    },
+    {
+      "title": "Botones Cancelar y Aceptar/Guardar presentes",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 266,
+      "status": "failed",
+      "duration": 15329,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:294:55"
+      }
+    },
+    {
+      "title": "Validacion de campos obligatorios al enviar vacio",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js",
+      "line": 297,
+      "status": "failed",
+      "duration": 8740,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\pedidos\\crear-pedido-completo.spec.js:355:31"
+      }
+    },
+    {
+      "title": "debería verificar la funcionalidad de asociación de productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 138,
+      "status": "failed",
+      "duration": 19590,
+      "error": {
+        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('option').first()\u001b[22m\n",
+        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('option').first()\u001b[22m\n\n    at AsociacionTiendaPage.asociarProductoATienda (C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\page-objects\\products\\asociacion-tienda.page.js:75:49)\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js:163:5"
+      }
+    },
+    {
+      "title": "@stable Profile: Muestra wizard de onboarding",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\profile\\profile.spec.js",
+      "line": 33,
+      "status": "passed",
+      "duration": 5160,
+      "error": null
+    },
+    {
+      "title": "Profile: Verificación en 2 pasos visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\profile\\profile.spec.js",
+      "line": 41,
+      "status": "passed",
+      "duration": 5334,
+      "error": null
+    },
+    {
+      "title": "Profile: Sección Seguridad de la Cuenta visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\profile\\profile.spec.js",
+      "line": 49,
+      "status": "passed",
+      "duration": 5517,
+      "error": null
+    },
+    {
+      "title": "Profile: Estado de configuración visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\profile\\profile.spec.js",
+      "line": 57,
+      "status": "passed",
+      "duration": 5874,
+      "error": null
+    },
+    {
+      "title": "@stable @smoke Debería mostrar las tiendas creadas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js",
+      "line": 25,
+      "status": "passed",
+      "duration": 5323,
+      "error": null
+    },
+    {
+      "title": "Debería verificar funcionalidad de ver tienda",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js",
+      "line": 44,
+      "status": "failed",
+      "duration": 4761,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/stores/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/stores\"\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/stores/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/stores\"\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:63:26\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:51:5"
+      }
+    },
+    {
+      "title": "Debería verificar estructura de tabla de tiendas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js",
+      "line": 93,
+      "status": "passed",
+      "duration": 3749,
+      "error": null
+    },
+    {
+      "title": "Verificar que el formulario de crear pedido está disponible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 25,
+      "status": "passed",
+      "duration": 2774,
+      "error": null
+    },
+    {
+      "title": "Debería verificar funcionalidad de ver tienda",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js",
+      "line": 44,
+      "status": "failed",
+      "duration": 4136,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/stores/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/stores\"\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"/stores/\"\u001b[39m\nReceived string:    \u001b[31m\"https://qa1app.dropea.net/stores\"\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:63:26\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:51:5"
+      }
+    },
+    {
+      "title": "Verificar campos de \"Detalles del pedido\"",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 38,
+      "status": "passed",
+      "duration": 2711,
+      "error": null
+    },
+    {
+      "title": "Verificar campos de \"Datos de Envío\"",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 54,
+      "status": "passed",
+      "duration": 2799,
+      "error": null
+    },
+    {
+      "title": "Verificar sección de \"Seguimiento\"",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 82,
+      "status": "passed",
+      "duration": 2794,
+      "error": null
+    },
+    {
+      "title": "debería verificar la funcionalidad de asociación de productos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js",
+      "line": 138,
+      "status": "failed",
+      "duration": 20384,
+      "error": {
+        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('option').first()\u001b[22m\n",
+        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('option').first()\u001b[22m\n\n    at AsociacionTiendaPage.asociarProductoATienda (C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\page-objects\\products\\asociacion-tienda.page.js:75:49)\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\productos\\asociacion-producto-tienda.spec.js:163:5"
+      }
+    },
+    {
+      "title": "Llenar formulario de pedido con datos de prueba",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 99,
+      "status": "failed",
+      "duration": 2889,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m6\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m6\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js:104:24"
+      }
+    },
+    {
+      "title": "Verificar navegación a lista de pedidos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 118,
+      "status": "passed",
+      "duration": 4942,
+      "error": null
+    },
+    {
+      "title": "Debería verificar funcionalidad de eliminar tienda",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js",
+      "line": 67,
+      "status": "failed",
+      "duration": 21583,
+      "error": {
+        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: 'Borrar' }).locator('a')\u001b[22m\n",
+        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: 'Borrar' }).locator('a')\u001b[22m\n\n    at TiendasPage.eliminarTienda (C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\page-objects\\stores\\tiendas.page.js:232:33)\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:85:7\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:74:5"
+      }
+    },
+    {
+      "title": "@stable @smoke UI: Página de pedidos muestra tabla correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 65,
+      "status": "passed",
+      "duration": 3684,
+      "error": null
+    },
+    {
+      "title": "Llenar formulario de pedido con datos de prueba",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js",
+      "line": 99,
+      "status": "failed",
+      "duration": 4315,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m6\u001b[39m\nReceived:    \u001b[31m0\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m6\u001b[39m\nReceived:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\crear-pedido-dropshipper.spec.js:104:24"
+      }
+    },
+    {
+      "title": "@stable UI: Navegación a pedidos funciona",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 93,
+      "status": "passed",
+      "duration": 4972,
+      "error": null
+    },
+    {
+      "title": "UI: Estados de pedido mostrados correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 193,
+      "status": "passed",
+      "duration": 4207,
+      "error": null
+    },
+    {
+      "title": "@stable UI: Página de pedidos carga sin errores",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 137,
+      "status": "passed",
+      "duration": 3765,
+      "error": null
+    },
+    {
+      "title": "UI: Flujo de estados documentado correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 278,
+      "status": "passed",
+      "duration": 357,
+      "error": null
+    },
+    {
+      "title": "UI: Permisos de Dropshipper en pedidos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 307,
+      "status": "passed",
+      "duration": 385,
+      "error": null
+    },
+    {
+      "title": "UI: Botones de acción según estado del pedido",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 235,
+      "status": "passed",
+      "duration": 3407,
+      "error": null
+    },
+    {
+      "title": "@stable @smoke UI: Página de asociación de productos carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\productos\\productos-ui.spec.js",
+      "line": 33,
+      "status": "passed",
+      "duration": 4245,
+      "error": null
+    },
+    {
+      "title": "@stable UI: Formulario de asociación tiene elementos visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\productos\\productos-ui.spec.js",
+      "line": 46,
+      "status": "passed",
+      "duration": 4067,
+      "error": null
+    },
+    {
+      "title": "UI: Mensaje de \"no results\" aparece cuando no hay tiendas",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\productos\\productos-ui.spec.js",
+      "line": 68,
+      "status": "passed",
+      "duration": 4917,
+      "error": null
+    },
+    {
+      "title": "@stable @smoke Wallet: Página carga correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 28,
+      "status": "passed",
+      "duration": 5538,
+      "error": null
+    },
+    {
+      "title": "@stable Wallet: Muestra sección de stats con contadores",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 43,
+      "status": "passed",
+      "duration": 4884,
+      "error": null
+    },
+    {
+      "title": "Wallet: Botón Agregar movimiento visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 66,
+      "status": "passed",
+      "duration": 4896,
+      "error": null
+    },
+    {
+      "title": "Debería verificar funcionalidad de eliminar tienda",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js",
+      "line": 67,
+      "status": "failed",
+      "duration": 21409,
+      "error": {
+        "message": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: 'Borrar' }).locator('a')\u001b[22m\n",
+        "stack": "TimeoutError: locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('menuitem', { name: 'Borrar' }).locator('a')\u001b[22m\n\n    at TiendasPage.eliminarTienda (C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\page-objects\\stores\\tiendas.page.js:232:33)\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:85:7\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\stores\\tiendas.spec.js:74:5"
+      }
+    },
+    {
+      "title": "Wallet: Filtros de búsqueda visibles",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 76,
+      "status": "passed",
+      "duration": 5218,
+      "error": null
+    },
+    {
+      "title": "Wallet: Tabla de movimientos tiene estructura correcta",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 98,
+      "status": "passed",
+      "duration": 5180,
+      "error": null
+    },
+    {
+      "title": "Wallet: Mensaje cuando no hay movimientos",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 120,
+      "status": "passed",
+      "duration": 4944,
+      "error": null
+    },
+    {
+      "title": "Wallet: Paginación funciona correctamente",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 134,
+      "status": "passed",
+      "duration": 5069,
+      "error": null
+    },
+    {
+      "title": "Validación: Última actualización visible",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 159,
+      "status": "passed",
+      "duration": 6376,
+      "error": null
+    },
+    {
+      "title": "Validación: KYC requerido para operaciones de wallet",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 171,
+      "status": "failed",
+      "duration": 4969,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js:186:42"
+      }
+    },
+    {
+      "title": "Validación: KYC requerido para operaciones de wallet",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js",
+      "line": 171,
+      "status": "failed",
+      "duration": 5025,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\wallet\\wallet-ui.spec.js:186:42"
+      }
+    },
+    {
+      "title": "UI: Tabla de pedidos tiene estructura correcta (si hay pedidos)",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 105,
+      "status": "failed",
+      "duration": 66847,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr, [role=\"row\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  60000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr, [role=\"row\"]').first()\u001b[22m\n\u001b[2m    63 × locator resolved to <tr class=\"ng-star-inserted\">…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr, [role=\"row\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  60000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr, [role=\"row\"]').first()\u001b[22m\n\u001b[2m    63 × locator resolved to <tr class=\"ng-star-inserted\">…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js:133:31"
+      }
+    },
+    {
+      "title": "UI: Tabla de pedidos tiene estructura correcta (si hay pedidos)",
+      "file": "C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js",
+      "line": 105,
+      "status": "failed",
+      "duration": 66141,
+      "error": {
+        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr, [role=\"row\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  60000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr, [role=\"row\"]').first()\u001b[22m\n\u001b[2m    63 × locator resolved to <tr class=\"ng-star-inserted\">…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n",
+        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr, [role=\"row\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  60000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 60000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr, [role=\"row\"]').first()\u001b[22m\n\u001b[2m    63 × locator resolved to <tr class=\"ng-star-inserted\">…</tr>\u001b[22m\n\u001b[2m       - unexpected value \"hidden\"\u001b[22m\n\n    at C:\\Users\\Administrador\\IdeaProjects\\dropea-qa\\e2e\\tests\\ui\\pedidos\\pedidos-ui.spec.js:133:31"
+      }
+    }
+  ]
+}
